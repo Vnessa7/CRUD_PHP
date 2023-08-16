@@ -8,7 +8,7 @@
             return $resultado=$sql ->fetchAll();
         }
 
-        public function get_producto-x_id($prod_id){
+        public function get_producto_x_id($prod_id){
             $conectar= parent:: conexion();
             parent::set_names();
             $sql="SELECT * FROM tm_producto WHERE prod_id= ?";
