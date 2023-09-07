@@ -12,7 +12,7 @@
                 }
         }
         public function set_names(){
-            return $this->dbh->query("SET NAMES 'utf-8'")
+            return $this->dbh->query("SET NAMES 'utf-8'");
         }
     }
 ?>
