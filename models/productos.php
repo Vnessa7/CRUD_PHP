@@ -32,7 +32,7 @@
             return $resultado=$sql ->fetchAll();
         }
 
-        public function isert_producto($prod_nom){
+        public function insert_producto($prod_nom){
             $conectar= parent:: conexion();
             parent::set_names();
             $sql="INSERT INTO INSERT INTO tm_producto (prod_id, prod_nom, fech_crea, fech_modi, fech_elim, est) VALUES (NULL, ?, now(), NULL, NULL, 1); ";
